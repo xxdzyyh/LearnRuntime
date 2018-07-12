@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddMethodVC.h
 //  LearnRunTime
 //
 //  Created by xiaoniu on 2018/7/11.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import <XFDemoTableViewVC/XFDemoTableViewVC.h>
-
-@interface ViewController : XFDemoTableViewVC
+@interface AddMethodVC : UIViewController
 
 @end
-

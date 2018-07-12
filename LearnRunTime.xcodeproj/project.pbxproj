@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EDD6A6CD40861184EE386DA /* libPods-LearnRunTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F030F01AA07507C0F0DB1A22 /* libPods-LearnRunTime.a */; };
 		D4B2AF7C20F5AD8C0055B501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AF7B20F5AD8C0055B501 /* AppDelegate.m */; };
 		D4B2AF7F20F5AD8C0055B501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AF7E20F5AD8C0055B501 /* ViewController.m */; };
 		D4B2AF8220F5AD8C0055B501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B2AF8020F5AD8C0055B501 /* Main.storyboard */; };
 		D4B2AF8420F5AD8E0055B501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B2AF8320F5AD8E0055B501 /* Assets.xcassets */; };
 		D4B2AF8720F5AD8E0055B501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B2AF8520F5AD8E0055B501 /* LaunchScreen.storyboard */; };
 		D4B2AF8A20F5AD8E0055B501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AF8920F5AD8E0055B501 /* main.m */; };
+		D4B2AF9320F5B23A0055B501 /* AddMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AF9220F5B23A0055B501 /* AddMethodVC.m */; };
+		D4B2AFA720F6F25A0055B501 /* ObjcMsgSendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AFA620F6F25A0055B501 /* ObjcMsgSendVC.m */; };
+		D4B2AFAA20F6FA4C0055B501 /* SwizzleMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AFA920F6FA4C0055B501 /* SwizzleMethodVC.m */; };
+		D4B2AFAD20F7061B0055B501 /* ReplaceMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AFAC20F7061B0055B501 /* ReplaceMethodVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		217CAA852478C6CF1E8852E1 /* Pods-LearnRunTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRunTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRunTime/Pods-LearnRunTime.debug.xcconfig"; sourceTree = "<group>"; };
+		260F3030010EE8AD123FFF1C /* Pods-LearnRunTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRunTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRunTime/Pods-LearnRunTime.release.xcconfig"; sourceTree = "<group>"; };
 		D4B2AF7720F5AD8C0055B501 /* LearnRunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B2AF7A20F5AD8C0055B501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4B2AF7B20F5AD8C0055B501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,15 @@
 		D4B2AF8620F5AD8E0055B501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4B2AF8820F5AD8E0055B501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B2AF8920F5AD8E0055B501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4B2AF9120F5B23A0055B501 /* AddMethodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddMethodVC.h; sourceTree = "<group>"; };
+		D4B2AF9220F5B23A0055B501 /* AddMethodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddMethodVC.m; sourceTree = "<group>"; };
+		D4B2AFA520F6F25A0055B501 /* ObjcMsgSendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcMsgSendVC.h; sourceTree = "<group>"; };
+		D4B2AFA620F6F25A0055B501 /* ObjcMsgSendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcMsgSendVC.m; sourceTree = "<group>"; };
+		D4B2AFA820F6FA4C0055B501 /* SwizzleMethodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzleMethodVC.h; sourceTree = "<group>"; };
+		D4B2AFA920F6FA4C0055B501 /* SwizzleMethodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzleMethodVC.m; sourceTree = "<group>"; };
+		D4B2AFAB20F7061B0055B501 /* ReplaceMethodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaceMethodVC.h; sourceTree = "<group>"; };
+		D4B2AFAC20F7061B0055B501 /* ReplaceMethodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceMethodVC.m; sourceTree = "<group>"; };
+		F030F01AA07507C0F0DB1A22 /* libPods-LearnRunTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnRunTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDD6A6CD40861184EE386DA /* libPods-LearnRunTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D03374CC02042C2EBC49824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F030F01AA07507C0F0DB1A22 /* libPods-LearnRunTime.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87F9CE672C72CD63DC4BBF2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				217CAA852478C6CF1E8852E1 /* Pods-LearnRunTime.debug.xcconfig */,
+				260F3030010EE8AD123FFF1C /* Pods-LearnRunTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D4B2AF6E20F5AD8C0055B501 = {
 			isa = PBXGroup;
 			children = (
 				D4B2AF7920F5AD8C0055B501 /* LearnRunTime */,
 				D4B2AF7820F5AD8C0055B501 /* Products */,
+				87F9CE672C72CD63DC4BBF2B /* Pods */,
+				0D03374CC02042C2EBC49824 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +94,33 @@
 		D4B2AF7920F5AD8C0055B501 /* LearnRunTime */ = {
 			isa = PBXGroup;
 			children = (
+				D4B2AF9020F5B2130055B501 /* RunTime */,
 				D4B2AF7A20F5AD8C0055B501 /* AppDelegate.h */,
 				D4B2AF7B20F5AD8C0055B501 /* AppDelegate.m */,
 				D4B2AF7D20F5AD8C0055B501 /* ViewController.h */,
 				D4B2AF7E20F5AD8C0055B501 /* ViewController.m */,
+				D4B2AF8920F5AD8E0055B501 /* main.m */,
 				D4B2AF8020F5AD8C0055B501 /* Main.storyboard */,
 				D4B2AF8320F5AD8E0055B501 /* Assets.xcassets */,
 				D4B2AF8520F5AD8E0055B501 /* LaunchScreen.storyboard */,
 				D4B2AF8820F5AD8E0055B501 /* Info.plist */,
-				D4B2AF8920F5AD8E0055B501 /* main.m */,
 			);
 			path = LearnRunTime;
+			sourceTree = "<group>";
+		};
+		D4B2AF9020F5B2130055B501 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				D4B2AF9120F5B23A0055B501 /* AddMethodVC.h */,
+				D4B2AF9220F5B23A0055B501 /* AddMethodVC.m */,
+				D4B2AFA520F6F25A0055B501 /* ObjcMsgSendVC.h */,
+				D4B2AFA620F6F25A0055B501 /* ObjcMsgSendVC.m */,
+				D4B2AFA820F6FA4C0055B501 /* SwizzleMethodVC.h */,
+				D4B2AFA920F6FA4C0055B501 /* SwizzleMethodVC.m */,
+				D4B2AFAB20F7061B0055B501 /* ReplaceMethodVC.h */,
+				D4B2AFAC20F7061B0055B501 /* ReplaceMethodVC.m */,
+			);
+			path = RunTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +130,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4B2AF8D20F5AD8E0055B501 /* Build configuration list for PBXNativeTarget "LearnRunTime" */;
 			buildPhases = (
+				1392725B97C21556C576CCD5 /* [CP] Check Pods Manifest.lock */,
 				D4B2AF7320F5AD8C0055B501 /* Sources */,
 				D4B2AF7420F5AD8C0055B501 /* Frameworks */,
 				D4B2AF7520F5AD8C0055B501 /* Resources */,
@@ -136,14 +189,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1392725B97C21556C576CCD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnRunTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4B2AF7320F5AD8C0055B501 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B2AFAD20F7061B0055B501 /* ReplaceMethodVC.m in Sources */,
+				D4B2AFAA20F6FA4C0055B501 /* SwizzleMethodVC.m in Sources */,
 				D4B2AF7F20F5AD8C0055B501 /* ViewController.m in Sources */,
 				D4B2AF8A20F5AD8E0055B501 /* main.m in Sources */,
+				D4B2AFA720F6F25A0055B501 /* ObjcMsgSendVC.m in Sources */,
 				D4B2AF7C20F5AD8C0055B501 /* AppDelegate.m in Sources */,
+				D4B2AF9320F5B23A0055B501 /* AddMethodVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +359,7 @@
 		};
 		D4B2AF8E20F5AD8E0055B501 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217CAA852478C6CF1E8852E1 /* Pods-LearnRunTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +376,7 @@
 		};
 		D4B2AF8F20F5AD8E0055B501 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260F3030010EE8AD123FFF1C /* Pods-LearnRunTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

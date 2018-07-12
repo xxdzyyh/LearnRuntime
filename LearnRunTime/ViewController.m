@@ -17,13 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"Runtime";
+    
+    self.dataSources = @[@{@"type" : @"UIViewController",@"className":@"ObjcMsgSendVC",@"desc":@"消息发送"},
+                         @{@"type" : @"UIViewController",@"className":@"AddMethodVC",@"desc":@"添加方法"},
+                         @{@"type" : @"UIViewController",@"className":@"SwizzleMethodVC",@"desc":@"交换方法"},
+                          @{@"type" : @"UIViewController",@"className":@"ReplaceMethodVC",@"desc":@"替换方法"},
+                         ];
+
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

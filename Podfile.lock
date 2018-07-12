@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - XFDemoTableViewVC (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - XFDemoTableViewVC (from `./../XFDemoTableViewVC`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  XFDemoTableViewVC:
+    :path: "./../XFDemoTableViewVC"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XFDemoTableViewVC: 5d737d0c4b3b1c6b3a14c766d53a1b429c042a91
+
+PODFILE CHECKSUM: 3454ea5d9dd0ffcaef6cf8b36362c3fc6cab10e6
+
+COCOAPODS: 1.5.3
