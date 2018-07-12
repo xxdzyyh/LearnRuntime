@@ -6,6 +6,6 @@ target 'LearnRunTime' do
   # use_frameworks!
 
   # Pods for LearnRunTime
-   pod 'XFDemoTableViewVC',:path => './../XFDemoTableViewVC'
+   pod 'XFDemoTableViewVC',:git => 'https://github.com/xxdzyyh/XFDemoTableViewVC.git'
 
 end

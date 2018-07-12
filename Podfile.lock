@@ -4,7 +4,7 @@ PODS:
     - Masonry
 
 DEPENDENCIES:
-  - XFDemoTableViewVC (from `./../XFDemoTableViewVC`)
+  - XFDemoTableViewVC (from `https://github.com/xxdzyyh/XFDemoTableViewVC.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -12,12 +12,17 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   XFDemoTableViewVC:
-    :path: "./../XFDemoTableViewVC"
+    :git: https://github.com/xxdzyyh/XFDemoTableViewVC.git
+
+CHECKOUT OPTIONS:
+  XFDemoTableViewVC:
+    :commit: d5d6a40c51096d9a79b77df7604f27853d850f9d
+    :git: https://github.com/xxdzyyh/XFDemoTableViewVC.git
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  XFDemoTableViewVC: 5d737d0c4b3b1c6b3a14c766d53a1b429c042a91
+  XFDemoTableViewVC: 88be94897ef48bd57a1bc37bea36c0105cc2a093
 
-PODFILE CHECKSUM: 3454ea5d9dd0ffcaef6cf8b36362c3fc6cab10e6
+PODFILE CHECKSUM: 04597055e96c37afc610be14a5df33e874458ac5
 
 COCOAPODS: 1.5.3
