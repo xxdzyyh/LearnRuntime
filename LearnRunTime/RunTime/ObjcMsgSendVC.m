@@ -132,7 +132,7 @@
 //
 //        class_addMethod([ObjcMsgSendVC class], sel, imp, "v@:");
 
-        return YES;
+        return NO;
     }
     
     return [super resolveInstanceMethod:sel];
@@ -149,7 +149,9 @@
     
     if (aSelector == @selector(nofunction)) {
         // 这里可以返回其他的对象
-        return self;
+        // Obviously if you return self from this method, the code would just fall into an infinite loop.
+        // 但是系统做了优化，返回self也没事，但是不建议这么做
+        return nil;
     } else {
         return [super forwardingTargetForSelector:aSelector];
     }
@@ -162,7 +164,7 @@
     
     if (aSelector == @selector(nofunction)) {
         // return nil;就不会调用下一步forwardInvocation:
-        return [self methodSignatureForSelector:@selector(noReturnNoParams)];
+        return [self methodSignatureForSelector:@selector(showWithAnimated:)];
     } else {
         return [super methodSignatureForSelector:aSelector];
     }
