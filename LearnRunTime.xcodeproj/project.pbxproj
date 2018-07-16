@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0EDD6A6CD40861184EE386DA /* libPods-LearnRunTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F030F01AA07507C0F0DB1A22 /* libPods-LearnRunTime.a */; };
+		D4361C6320FC7F600080146B /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D4361C6220FC7F600080146B /* MyClass.m */; };
+		D4361C6620FC7F7E0080146B /* MyClass+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D4361C6520FC7F7E0080146B /* MyClass+Ext.m */; };
+		D4361C6920FC82010080146B /* FindOriginFuncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4361C6820FC82010080146B /* FindOriginFuncVC.m */; };
+		D4361C6C20FC900E0080146B /* CategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4361C6B20FC900E0080146B /* CategoryVC.m */; };
 		D4B2AF7C20F5AD8C0055B501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AF7B20F5AD8C0055B501 /* AppDelegate.m */; };
 		D4B2AF7F20F5AD8C0055B501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B2AF7E20F5AD8C0055B501 /* ViewController.m */; };
 		D4B2AF8220F5AD8C0055B501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B2AF8020F5AD8C0055B501 /* Main.storyboard */; };
@@ -23,6 +27,14 @@
 /* Begin PBXFileReference section */
 		217CAA852478C6CF1E8852E1 /* Pods-LearnRunTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRunTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRunTime/Pods-LearnRunTime.debug.xcconfig"; sourceTree = "<group>"; };
 		260F3030010EE8AD123FFF1C /* Pods-LearnRunTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRunTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRunTime/Pods-LearnRunTime.release.xcconfig"; sourceTree = "<group>"; };
+		D4361C6120FC7F600080146B /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		D4361C6220FC7F600080146B /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		D4361C6420FC7F7E0080146B /* MyClass+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyClass+Ext.h"; sourceTree = "<group>"; };
+		D4361C6520FC7F7E0080146B /* MyClass+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyClass+Ext.m"; sourceTree = "<group>"; };
+		D4361C6720FC82010080146B /* FindOriginFuncVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindOriginFuncVC.h; sourceTree = "<group>"; };
+		D4361C6820FC82010080146B /* FindOriginFuncVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindOriginFuncVC.m; sourceTree = "<group>"; };
+		D4361C6A20FC900E0080146B /* CategoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryVC.h; sourceTree = "<group>"; };
+		D4361C6B20FC900E0080146B /* CategoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryVC.m; sourceTree = "<group>"; };
 		D4B2AF7720F5AD8C0055B501 /* LearnRunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B2AF7A20F5AD8C0055B501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4B2AF7B20F5AD8C0055B501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,6 +85,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D4361C6020FC7F3A0080146B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D4361C6120FC7F600080146B /* MyClass.h */,
+				D4361C6220FC7F600080146B /* MyClass.m */,
+				D4361C6420FC7F7E0080146B /* MyClass+Ext.h */,
+				D4361C6520FC7F7E0080146B /* MyClass+Ext.m */,
+				D4361C6720FC82010080146B /* FindOriginFuncVC.h */,
+				D4361C6820FC82010080146B /* FindOriginFuncVC.m */,
+				D4361C6A20FC900E0080146B /* CategoryVC.h */,
+				D4361C6B20FC900E0080146B /* CategoryVC.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D4B2AF6E20F5AD8C0055B501 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +138,7 @@
 		D4B2AF9020F5B2130055B501 /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
+				D4361C6020FC7F3A0080146B /* Category */,
 				D4B2AF9120F5B23A0055B501 /* AddMethodVC.h */,
 				D4B2AF9220F5B23A0055B501 /* AddMethodVC.m */,
 				D4B2AFA520F6F25A0055B501 /* ObjcMsgSendVC.h */,
@@ -215,10 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4361C6320FC7F600080146B /* MyClass.m in Sources */,
+				D4361C6920FC82010080146B /* FindOriginFuncVC.m in Sources */,
 				D4B2AFAD20F7061B0055B501 /* ReplaceMethodVC.m in Sources */,
+				D4361C6C20FC900E0080146B /* CategoryVC.m in Sources */,
 				D4B2AFAA20F6FA4C0055B501 /* SwizzleMethodVC.m in Sources */,
 				D4B2AF7F20F5AD8C0055B501 /* ViewController.m in Sources */,
 				D4B2AF8A20F5AD8E0055B501 /* main.m in Sources */,
+				D4361C6620FC7F7E0080146B /* MyClass+Ext.m in Sources */,
 				D4B2AFA720F6F25A0055B501 /* ObjcMsgSendVC.m in Sources */,
 				D4B2AF7C20F5AD8C0055B501 /* AppDelegate.m in Sources */,
 				D4B2AF9320F5B23A0055B501 /* AddMethodVC.m in Sources */,

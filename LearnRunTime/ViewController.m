@@ -23,7 +23,8 @@
     self.dataSources = @[@{@"type" : @"UIViewController",@"className":@"ObjcMsgSendVC",@"desc":@"消息发送"},
                          @{@"type" : @"UIViewController",@"className":@"AddMethodVC",@"desc":@"添加方法"},
                          @{@"type" : @"UIViewController",@"className":@"SwizzleMethodVC",@"desc":@"交换方法"},
-                          @{@"type" : @"UIViewController",@"className":@"ReplaceMethodVC",@"desc":@"替换方法"},
+                         @{@"type" : @"UIViewController",@"className":@"ReplaceMethodVC",@"desc":@"替换方法"},
+                         @{@"type" : @"UIViewController",@"className":@"FindOriginFuncVC",@"desc":@"category方法"},
                          ];
 
 }
